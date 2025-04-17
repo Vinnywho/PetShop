@@ -1,4 +1,7 @@
+ <p align="center">
+<img src="https://github.com/user-attachments/assets/b59d9aca-c697-4ada-af75-25e601640194" alt="logo" border="0" align="center" id="logo"><br>
 <h1 align="center">MIAU-AU PETSHOP</h1> 
+</p>
 
 ## Desenvolvedor: <a href="https://www.linkedin.com/in/vinicius-cardoso-de-lima-a9a918227/">Vinicius Cardoso de Lima</a>
 
