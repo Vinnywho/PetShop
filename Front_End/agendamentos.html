@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Londrina+Solid:wght@100;300;400;900&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cherry+Bomb+One&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cherry+Bomb+One&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+  
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cabin:ital,wght@0,400..700;1,400..700&family=Cherry+Bomb+One&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/x-icon" href="images/Vector.png">
+    <title>Agendamento</title>
+    <link rel="stylesheet" href="agendamento/agendamento.css">
+</head>
+<body>
+    <div id="navbar">
+        <div id="container-nav">
+            <img src="images/Vector.png" alt="Logo" id="logo-nav">
+            <a href="agendamentos.html">Inicio</a>
+            <a href="historico.html">Agendamentos</a>
+            <button id="sign-out" onclick="logout()">Sign out</button>
+        </div>
+    </div> 
+
+    <section id="inicio">
+        <div id="container">
+            <h1 id="title">Bem vindo(a)</h1>
+            <label id="label">Serviços</label>
+            <div id="search-box">
+                <img src="images/search-svgrepo-com.png" alt="">
+                <input type="text" name="search" id="search-text" placeholder="Pesquisar">
+            </div>
+
+            <div id="servicos">
+                <div class="service-box" id="banho">
+                    <img src="images/Logo.png" alt="foto" title="foto">
+                    <div class="content">
+                        <div class="high">
+                            <h3>Banho</h3>
+                            <button class="agendar" id="agendar-banho">Agendar</button>
+                        </div>
+                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Recusandae temporibus quis praesentium nostrum assumenda similique commodi quibusdam, tenetur quia officia! Veritatis blanditiis quod atque nobis esse incidunt, repellendus omnis voluptatibus.</p>
+                        <div class="low"> 
+                            <p id="price">R$20,00</p>
+                            <p>🕛 40 minutos</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="service-box" id="tosa">
+                    <img src="images/Logo.png" alt="foto" title="foto">
+                    <div class="content">
+                        <div class="high">
+                            <h3>Tosa</h3>
+                            <button class="agendar" id="agendar-tosa">Agendar</button>
+                        </div> 
+                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Recusandae temporibus quis praesentium nostrum assumenda similique commodi quibusdam, tenetur quia officia! Veritatis blanditiis quod atque nobis esse incidunt, repellendus omnis voluptatibus.</p>
+                        <div class="low">
+                            <p id="price">R$50,00 - R$150,00</p>
+                            <p>🕛 40min - 2Horas</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="service-box" id="banho+tosa">
+                    <img src="images/Logo.png" alt="foto" title="foto">
+                    <div class="content">
+                        <div class="high">
+                            <h3>Banho + Tosa</h3>
+                            <button class="agendar" id="agendar-banhoTosa">Agendar</button>
+                        </div>
+                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Recusandae temporibus quis praesentium nostrum assumenda similique commodi quibusdam, tenetur quia officia! Veritatis blanditiis quod atque nobis esse incidunt, repellendus omnis voluptatibus.</p>
+                        <div class="low">  
+                            <p id="price">R$80,00 - R$300,00</p>
+                            <p>🕛 2Horas - 4Horas</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <div id="modal" class="modal">
+        <div class="modal-conteudo">
+            <div class="modal-cabecalho">
+                <h2>Agendar</h2>
+                <button class="fechar-modal">&times;</button>
+            </div>
+
+            <h3>Adicione uma imagem do seu pet.</h3>
+            <form id="uploadForm">
+                <input type="file" name="image" accept="image/*" id="image" required/>
+                <input type="hidden" name="imageId" id="imageId">
+            </form>
+
+            <form id="formAgendamento" class="formulario">
+                <div class="campo-formulario">
+                    <label>Nome do Pet *</label> 
+                    <input type="text" id="nomePet" required>
+                </div>
+                <div class="campo-formulario">
+                    <label>Raça *</label>
+                    <input type="text" id="raca" required></input>
+                </div>
+                <div class="campo-formulario">
+                    <label>Data *</label>
+                    <input type="date" id="data" required/>
+                </div>
+                <div class="campo-formulario">
+                    <label>Horário *</label>
+                    <input type="time" id="time" required/>
+                </div>
+                <div class="campo-formulario">
+                    <label>Observações</label>
+                    <textarea id="obs"></textarea> 
+                </div>
+
+                <div class="botoes-formulario">
+                    <button type="submit" class="botao-salvar">Salvar</button>
+                    <button type="button" class="botao-cancelar">Cancelar</button>
+                </div>
+            </form>
+        </div>
+    </div>
+    <script src="agendamento/modal.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,182 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "inter", sans-serif
+}
+
+#registro{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    min-height: 100dvh;
+    justify-content: center;
+}
+
+#login{
+    background-color: #0057FF;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+}
+
+#login h1{
+    font-family: "Londrina Solid";
+    font-size: 100px;
+    max-width: 400px;
+    text-align: center;
+    color: white;
+
+}
+
+#login button{
+    height: 55px;
+    width: 170px;
+    border-radius: 3rem;
+    border: none;
+    background-color: #FF5C00;
+    color: white;
+    font-size: 20px;
+    cursor: pointer;
+    transition: transform 0.2s ease-in-out;
+    font-family: "Londrina Solid";
+}
+
+#login img{
+    width: 200px;
+}
+
+#registro-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+    background-color: #D2E7FF;
+}
+
+#registro-container h1{
+    color: black;
+    font-family: "Londrina Solid";
+    font-size: 100px;
+    max-width: 550px;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+#name-input{
+    display: inline-flex;
+    background-color: white;
+    padding: 5px;
+    border-radius: 3rem;
+}
+
+#name-input input{
+    padding-left: 15px;
+    width: 370px;
+    border: none;
+    border-radius: 3rem;
+    outline: none;
+}
+
+#name-input img{
+    padding-left: 8px;
+    padding-right: 5px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    width: 50px;
+    opacity: 40%;
+}
+
+
+#email-input{
+    display: inline-flex;
+    background-color: white;
+    padding: 5px;
+    border-radius: 3rem;
+}
+
+#email-input input{
+    padding-left: 15px;
+    width: 370px;
+    border: none;
+    border-radius: 3rem;
+    outline: none;
+}
+
+#email-input img{
+    padding-left: 8px;
+    padding-right: 5px;
+}
+
+#password-input{
+    display: inline-flex;
+    background-color: white;
+    padding: 5px;
+    border-radius: 3rem;
+}
+
+#password-input input{
+    padding-left: 15px;
+    width: 350px;
+    border: none;
+    border-radius: 3rem;
+    outline: none;
+}
+
+.eyeopen{
+    width: 25px;
+    position: relative;
+}
+
+.eyeclosed{
+    width: 25px;
+    position: relative;
+}
+
+.viewPassword{
+    background-color: transparent;
+    position: relative;
+    opacity: 50%;
+    border: none;
+    left: -2%;
+}
+
+.viewPassword1{
+    background-color: transparent;
+    position: relative;
+    opacity: 50%;
+    border: none;
+    left: -2%;
+}
+
+label{
+    margin-top: -15px;
+    margin-bottom: -30px;
+}
+
+#registro-button{
+    height: 55px;
+    width: 170px;
+    border-radius: 3rem;
+    border: none;
+    background-color: #FF5C00;
+    color: white;
+    font-size: 20px;
+    cursor: pointer;
+    transition: transform 0.2s ease-in-out;
+    font-family: "Londrina Solid";
+}
+
+#registro p{
+    margin: -30px;
+    text-decoration: underline;
+    opacity: 60%;
+}
+
+button:hover{
+    transform: scale(1.05);
+    filter: brightness(120%);
+}
+

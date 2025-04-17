@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Londrina+Solid:wght@100;300;400;900&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cherry+Bomb+One&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/x-icon" href="images/Vector.png">
+    <title>Cadastro</title>
+    <link rel="stylesheet" href="cadastro/cadastro.css">
+</head>
+<body>
+    <div id="registro">
+        <form id="registro-container" method="POST">
+            <h1>Registrar-se</h1>
+                <label>Nome</label>
+                <div id="name-input">
+                    <img src="images/user-svgrepo-com.png" alt="">
+                    <input type="text" name="name" id="name" placeholder="Seu nome" required>
+                </div>
+
+                <label>Email</label>
+                <div id="email-input">
+                    <img src="images/email-winged-envelope-outlined-sketch-svgrepo-com 1.png" alt="">
+                    <input type="email" name="email" id="email" placeholder="Exemplo@exemplo.com" required>
+                </div>
+
+                <label>Senha</label>
+                <div id="password-input">
+                    <img src="images/key-svgrepo-com 1.png" alt="">
+                    <input type="password" id="password" name="password" placeholder="Exemplo123@" required>
+                    <button class="viewPassword" type="button" title="Ver ou ocultar senha"><img id="toggleIcon" class="eyeclosed" src="images/eye-close-svgrepo-com.png" alt="ícone olho fechado"></button>
+                </div>
+
+                <label>Repita a Senha</label>
+                <div id="password-input">
+                    <img src="images/key-svgrepo-com 1.png" alt="">
+                    <input type="password" id="password-repeat" name="password-repeat" placeholder="Exemplo123@" required>
+                    <button class="viewPassword1" type="button" title="Ver ou ocultar senha"><img id="toggleIcon" class="eyeclosed" src="images/eye-close-svgrepo-com.png" alt="ícone olho fechado"></button>
+                </div>
+
+                <button id="registro-button" type="submit" onclick="cadastrarUsuario(event)">Cadastrar</button>
+                <p>Esqueci a senha</p>
+
+        </form>
+
+        <div id="login">
+            <h1>Já tem uma conta?</h1>
+            <a href="login1.html"><button>Login</button></a>
+            <img src="images/Vector.svg" alt="">
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+    <script src="cadastro/cadastro.js"></script>
+    <script src="../Back_End/routes/authroutes.js"></script>
+
+</body>
+</html>
