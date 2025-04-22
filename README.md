@@ -6,12 +6,12 @@
 ## Desenvolvedor: <a href="https://www.linkedin.com/in/vinicius-cardoso-de-lima-a9a918227/">Vinicius Cardoso de Lima</a>
 
 ## Descrição
-<p>Criação do projeto desenvolvido para a matéria de Desenvolvimento Web Full Stack pelos alunos da FECAP (Fundação Escola e Comércio Alvares Penteado) do curso de Análise e Desenvolvimento de sistema. Um pequeno jogo interativo baseado em texto feito em HTML, CSS e JavaScript, onde o jogador assume o papel de um aventureiro que precisa tomar decisões estratégicas para avançar em uma jornada misteriosa.<br>
-A cada fase a história toma um caminho, e por consequência, um final diferente. O jogo conta com um sistema de vidas que permite que o player tenha até três chances de escapar com vida, e caso sua morte chegue, ao final ele pode reinicar o jogo quantas vezes quiser até obter um resultado satisfatório.</p>
+<p>Criação do projeto desenvolvido para a matéria de Desenvolvimento Web Full Stack pelos alunos da FECAP (Fundação Escola e Comércio Alvares Penteado) do curso de Análise e Desenvolvimento de sistema. Um site de um Petshop que realiza cadastro de usuáios, login, cadastro de pets e agendamento de serviços contando com foto de identificação, com a parte do front-end desenvolvida em HTML, CSS e JavaScript, e o back-end em JavaScript com a criação de uma api simples, Nodejs, MySQL Workbench e Postman.<br>
+O usuário pode escolher na landing page se quer se registrar ou fazer login caso não possua uma conta, na qual, ao logar é gerado um token que permite o cliente manter a sessão no site por até uma hora sem precisar se logar novamente. Ao entrar no site o usuário pode visualizar os serviços disponíveis e agendar um deles para seu Pet, fornecendo os dados necessários, que poderão ser visualizados na aba de Agendamentos, na qual o próprio usuário pode apagar ou editar a foto enviada, bem como apagar o agendamento em si.</p>
 
 <p align="center">
 <img src="https://github.com/user-attachments/assets/1a4a1ce0-cd4f-4084-abc9-3694f2cdb74c" alt="Página" border="0" id="página">
-  Home page, por <a href="https://www.linkedin.com/in/vinicius-cardoso-de-lima-a9a918227/">Vinicius Cardoso de Lima</a>
+  Landing page, por <a href="https://www.linkedin.com/in/vinicius-cardoso-de-lima-a9a918227/">Vinicius Cardoso de Lima</a>
 </p>
 
 </br>
